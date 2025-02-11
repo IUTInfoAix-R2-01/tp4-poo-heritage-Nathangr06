@@ -1,0 +1,23 @@
+Pour le 11/02/2025
+Java R201
+
+5)
+Cela signifie que dans une classe fille, on rédifit une méthode la classe mère
+
+6)
+toString()
+getPuissance()
+
+7)
+@Override est le mot clé qui permet de redéfinir une méthode déjà implémenté nativement
+ou dans une autre partie du code.
+
+8)
+Permet d'affirmer que la méthode concerné est présente dans la classe et est 
+redéfinie. Sa présence n'est pas obligatoire mais c'est une bonne pratique et
+permet d'apporter de l'information supplémentaire.
+
+10)
+super.getPuissane(FrequenceCoupsDePedale) permet d'appeler la méthode implémenté dans
+la classe mère puisque qu'elle est redéfinie dans la classe fille.
+
