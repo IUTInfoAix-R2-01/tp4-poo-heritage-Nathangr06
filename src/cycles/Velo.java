@@ -7,7 +7,8 @@ public class Velo {
 	private double DEFAUT_BRAQUET=13.0;
 	private double braquet;
 	private double diamRoue;
-	private Random genAlea;
+	private Random genAlea = new Random();
+	
 	
 	public double getDEFAUT_BRAQUET() {
 		return this.DEFAUT_BRAQUET; 
@@ -66,8 +67,8 @@ public class Velo {
 	
 	
 	public static void main(String[] args) {
-		Velo v1 = new Velo();
-		System.out.println(v1);
+		Velo v1 = new Velo(5,8);
+		System.out.println(v1.getPuissance(10));
 	}
 	
 }
