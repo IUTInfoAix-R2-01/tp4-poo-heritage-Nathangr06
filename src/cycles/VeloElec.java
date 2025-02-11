@@ -1,7 +1,7 @@
 package cycles;
 
 public class VeloElec extends Velo {
-	private double DEFAUT_FACTEUR_PUISSANCE_MOTEUR=15.0;
+	private static double DEFAUT_FACTEUR_PUISSANCE_MOTEUR=15.0;
 	private double facteurPuissanceMoteur;
 	
 	
@@ -21,12 +21,12 @@ public class VeloElec extends Velo {
 		this.facteurPuissanceMoteur=coupleMoteur;
 	}
 	
-	public double getDEFAUT_COUPLE_MOTEUR() {
-		return this.DEFAUT_FACTEUR_PUISSANCE_MOTEUR;
+	public static double getDEFAUT_COUPLE_MOTEUR() {
+		return DEFAUT_FACTEUR_PUISSANCE_MOTEUR;
 	}
 	
-	public void setDEFAUT_COUPLE_MOTEUR(double DEFAUT_COUPLE_MOTEUR) {
-		this.DEFAUT_FACTEUR_PUISSANCE_MOTEUR=DEFAUT_COUPLE_MOTEUR;
+	public static void setDEFAUT_COUPLE_MOTEUR(double DEFAUT_COUPLE_MOTEUR) {
+		DEFAUT_FACTEUR_PUISSANCE_MOTEUR=DEFAUT_COUPLE_MOTEUR;
 	}
 	
 	public double getFacteurPuissanceMoteur() {
