@@ -39,7 +39,7 @@ public class Visit {
 	}
 	
 	public String toString() {
-		return "Visit["+this.customer.toString()+", date="+this.date+
+		return "Visit["+this.customer+", date="+this.date+
 				", serviceExpense="+this.serviceExpense+", productExpense="+this.productExpense+"]";
 	}
 }
